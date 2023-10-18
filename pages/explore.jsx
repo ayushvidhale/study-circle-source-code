@@ -73,7 +73,6 @@ export default function Explore() {
       if (room.adminUser.id === userId) return false;
       return (
         room?.subtopic === data?.subtopic &&
-        room?.admin?.gender === data?.admin?.gender &&
         room?.group_or_duo === data?.group_or_duo &&
         room?.location === data?.location
       );
