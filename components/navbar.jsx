@@ -11,7 +11,7 @@ function Navbar(){
     <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
         <a href="/join" className="flex items-center">
             <img src="../logo.png" className="h-8 mr-2" alt="" />
-            <span className="self-center text-2xl font-bold whitespace-nowrap text-black ">FindingAlly</span>
+            <span className="self-center text-2xl font-bold whitespace-nowrap text-black ">StudyCircle</span>
         </a>
         {/* <button data-collapse-toggle="mega-menu-full" type="button" className="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mega-menu-full" aria-expanded="false">
                 <span className="sr-only">Open main menu</span>

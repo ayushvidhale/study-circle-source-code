@@ -8,7 +8,7 @@ export default function Onboarding() {
 
         <div className="justify-center place-content-center">
           <h1 className="text-5xl font-bold text-white">
-          Welcoming to FindingAlly
+          Welcoming to StudyCircle
           </h1>
 
           <address className="mt-2 text-xl not-italic font-semibold">

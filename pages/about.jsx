@@ -34,7 +34,7 @@ export default function About() {
             </div>
 
             <h2 className="mt-8 text-3xl font-bold leading-tight text-black lg:mt-12 sm:text-4xl lg:text-5xl">
-              About <span className="border-b-8 border-yellow-300">FindingAlly</span> 
+              About <span className="border-b-8 border-yellow-300">StudyCircle</span> 
             </h2>
             <p className="max-w-2xl mx-auto mt-6 text-lg text-gray-600 md:mt-10">
             Finding Ally allows users to find study partners who share similar academic goals, interests, and study habits. The website aims to help users achieve their academic goals more efficiently by connecting them with like-minded individuals. Users can search for study partners based on various filters, such as subject, level of study, location, and availability. They can also schedule study sessions, collaborate on projects, and share resources with their partners. The website is designed to provide a user-friendly and secure platform for students to connect and collaborate, making the studying experience more enjoyable and productive.
