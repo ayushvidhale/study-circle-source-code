@@ -114,7 +114,7 @@ export default function Rooms({ roomDetails }) {
   useEffect(() => {
     const fetchQuotes = async () => {
       try {
-        const response = await fetch(`https://type.fit/api/quotes`);
+        const response = await fetch(`https://api.api-ninjas.com/v1/quotes`);
         if (!response.ok) {
           throw new Error("Failed to fetch quotes");
         }
@@ -196,7 +196,7 @@ export default function Rooms({ roomDetails }) {
                       <div className="w-full flex items-center justify-center bg-black rounded-2xl p-2">
                         <p className="text-center flex flex-wrap text-sm text-white">
                           &quot;{quote?.text}&quot; -{" "}
-                          {quote?.author || "Anonymous"}
+                          {quote?.author && quote?.author.replace(", type.fit", "") || "Anonymous"}
                         </p>
                       </div>
                       <div className="w-full flex items-center justify-center bg-black rounded-2xl ">

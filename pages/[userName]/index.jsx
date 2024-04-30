@@ -51,14 +51,6 @@ export default function Profile({ userDetails }) {
     setuserDetailsData(userDetails[0]);
     //console.log(userDetailsData + "userDetailsData");
   }, [userDetails]);
-  // useEffect(() => {
-  //   //console.log(userDetailsData);
-  //   setuserDetailsData(session?.user[0]);
-  // }, [userDetailsData]);
-  
-  const [userName, setuserName] = useState();
-  const [userImage, setuserImage] = useState();
-
   const [subjectMajor, setsubjectMajor] = useState(userDetailsData?.major || "");
   const [studyInterests, setstudyInterests] = useState(userDetailsData?.interests || []);
 

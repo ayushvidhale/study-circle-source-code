@@ -89,7 +89,7 @@ const PomodoroPage = () => {
           &quot;{quote?.text}&quot;
         </h1>
         <p className="text-black font-bold md:text-sm text-xs mx-auto">
-          - {quote?.author || "Anonymous"}
+          - {(", type.fit", "") || "Anonymous"}
         </p>
       </div>
 

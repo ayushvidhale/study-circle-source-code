@@ -125,7 +125,7 @@ export default function Home() {
       </div>
       <div className="h-full flex place-content-center place-items-center justify-center relative">
         <p className="text-center text-sm md:text-lg md:-mt-14 mb-6">
-          &quot;{quote?.text}&quot; - {quote?.author || "Anonymous"}
+          &quot;{quote?.text}&quot; - {quote?.author && quote?.author.replace(", type.fit", "") || "Anonymous"}
         </p>
       </div>
       <div className="h-full md:-mt-20 -mt-28 flex place-content-end place-items-end justify-end relative">
